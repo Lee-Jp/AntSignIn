@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* 你自己的样式 */
+.signInLeft{
+	 width: 100%;
+	 overflow: hidden;
+	 position: relative;
+	 border:1px solid #ddd;
+}
+.signInRight{
+	width: 47%;
+	overflow-y:auto ;
+	position: absolute;right: 0;top:0;
+	border-left:1px solid #ddd;
+}
+.signInRight table{
+	width: 100%;
+	
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+.signInRight table th{
+	font-size: 16px;
+	text-align: center;
+	background:#eee;
+}
+.signInRight table tr:hover{
+	cursor: pointer;
+	background:#eee;
+}
+.signInRight table tr td{
+	font-size: 14px;
+	height: 20px;
+	line-height: 0;
+	overflow: hidden;
+}
+.signInRight table td button{
+	color:#fff;
+	font-size: 14px;
+	display: inline-block;
+	margin:3px 10px;
+	padding:2px 10px;
+	overflow: hidden;
+	border-radius: 5px;
+	border:0;
+	cursor: pointer;
+}
+.signInRight table td button:nth-of-type(1){background:#1ead4a;}
+.signInRight table td button:nth-of-type(2){background:#cacf3f;}
+.signInRight table td button:nth-of-type(3){background:#4782dc;}
+.signInRight table td button:nth-of-type(4){background:#e43a3a;}
+#week{
+    width: 50%;
+    height: 48px;
+    overflow: hidden;
+    line-height: 48px;
+    border:1px solid #ddd;
+}
+#week li{
+    width:20%;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    border-left:1px solid #ddd;
+    margin-left:-1px;
+}
+#week li.active{
+    color:#fff;
+    background:#389dfa;
+    transition: all 0.5s ease-in-out;
+}
+.timetable{
+    width:50%;
+    overflow: hidden;
+    border:1px solid #ddd;
+}
+.timetable div{
+    display: block;
+}
+.timetable div ul{
+    width:90%;
+    margin:15px auto;
+    overflow: hidden;
+    border:1px solid #389dfa;
+    border-radius: 5px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+.timetable div ul:hover{
+    cursor: pointer;
+    background:#eee;
+    transition: all 0.5s ease-in-out;
+}
+.timetable div li{
+    width:20%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 14px;
+   text-align: center;
+}
+.timetable div li:nth-of-type(2){
+	width: 30%;
+}
+.timetable div li:nth-of-type(4){
+	width: 10%;
+}
+.timetable div li:first-child{
+	width:15%;
+    color:#fff;
+    background:#389dfa;
+}
+.timetable div li:last-child{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.timetable div li:last-child a{
+    display: block;
+    color:#fff;
+	width:100%;
+    background:#429842;
+}
+.timetable #qr{
+	width:250px;
+	height: 250px;
+	margin:0 auto;
+	display: none;
+}
+.timetable .title{
+	color:#389dfa;
+	font-size: 14px;
+	text-align: center;
+}
+.timetable .overTime{
+	color:red;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* 教师数据报表展示 */
+.echartsData{
+	width:100%;
+	height: 600px;
+	margin:20px auto 0;
+	padding:10px;
+	box-sizing: border-box;
+	border:1px solid #ddd;
+}

@@ -1,0 +1,24 @@
+/* pages/signmap/index.wxss */
+
+.control {
+  width: 90%;
+  height: 120rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rpx;
+  box-sizing: border-box;
+  position: fixed;
+  bottom:10%;
+  left: 5%;
+}
+
+.control .location {
+  width: 90rpx;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

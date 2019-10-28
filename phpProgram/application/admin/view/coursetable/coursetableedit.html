@@ -1,0 +1,183 @@
+{__NOLAYOUT__}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="__STATIC__/admin/h-ui.admin/lib/html5shiv.js"></script>
+    <script type="text/javascript" src="__STATIC__/admin/h-ui.admin/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="__STATIC__/admin/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/admin/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/admin/h-ui.admin/lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/admin/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/admin/h-ui.admin/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="__STATIC__/admin/h-ui.admin/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>修改班级 - 班级管理 - H-ui.admin v3.1</title>
+    <meta name="keywords" conten`t="H-ui.admin v3.1,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+    <meta name="description" content="H-ui.admin v3.1，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<article class="page-container">
+    <form onsubmit="return addsub()" class="form form-horizontal" id="form-admin-add" action="{:request()->action()}" method="post">
+
+        <div class="row cl">
+            <label  class="form-label col-xs-4 col-sm-1"><span class="c-red">*</span>课程名称：</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="hidden"  value="{$data.couid}" name="couid" >
+                <select id="sub" name="sub_id" type="text" class="input-text" >
+                    <option value ="{$data.sub_id}">{$data.subname}</option>
+                    {volist name = "subject" id="subject"}
+                    <option value ="{$subject.subid}">{$subject.subname}</option>
+                    {/volist}
+                </select>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-1"><span class="c-red">*</span>班级：</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <select id="class1" name="cla_id" type="text" class="input-text" >
+                    <option value ="{$data.cla_id}">{$data.cname}</option>
+                    {volist name = "classes" id="classes"}
+                    <option value ="{$classes.cid}">{$classes.cname}</option>
+                    {/volist}
+                </select>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-1"><span class="c-red">*</span>教室：</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input id="classroom" type="text" class="input-text" autocomplete="off" value="{$data.classroom}"   name="classroom">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-1"><span class="c-red">*</span>星期：</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <select id="weekkk" name="week" type="text" class="input-text" >
+                    <option value ="{$data.week}">{$data.week}</option>
+                    <option value ="Mon">星期一</option>
+                    <option value ="Tues">星期二</option>
+                    <option value ="Wed">星期三</option>
+                    <option value ="Thur">星期四</option>
+                    <option value ="Fri">星期五</option>
+                </select>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-1"><span class="c-red">*</span>开始时间：</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <select id="course" name="starttime" type="text" class="input-text" >
+                    <option value ="{$data.starttime}">{$data.starttime}</option>
+                    <option value ="1">第一节课</option>
+                    <option value ="2">第二节课</option>
+                    <option value ="3">第三节课</option>
+                    <option value ="4">第四节课</option>
+                    <option value ="5">第五节课</option>
+                    <option value ="6">第六节课</option>
+                    <option value ="7">第七节课</option>
+                    <option value ="8">第八节课</option>
+                    <option value ="9">第九节课</option>
+                    <option value ="10">第十节课</option>
+                </select>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-1"><span class="c-red">*</span>结束时间：</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <select id="courseend" name="endtime" type="text" class="input-text" >
+                    <option value ="{$data.endtime}">{$data.endtime}</option>
+                    <option value ="1">第一节课</option>
+                    <option value ="2">第二节课</option>
+                    <option value ="3">第三节课</option>
+                    <option value ="4">第四节课</option>
+                    <option value ="5">第五节课</option>
+                    <option value ="6">第六节课</option>
+                    <option value ="7">第七节课</option>
+                    <option value ="8">第八节课</option>
+                    <option value ="9">第九节课</option>
+                    <option value ="10">第十节课</option>
+                </select>
+            </div>
+        </div>
+        <input type="hidden" value="{$Think.session.tea_id}" name="tea_id">
+        <div class="row cl">
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-1">
+                <input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </div>
+        </div>
+    </form>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="__STATIC__/admin/h-ui.admin/lib/jquery/1.9.1/jquery.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/h-ui.admin/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/admin/h-ui.admin/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/h-ui.admin/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/h-ui.admin/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });
+
+
+    });
+    function  addsub(){
+	// var subname = $.trim($('#subname').val());
+	var sub = $.trim($('#sub').val());
+	var class1 = $.trim($('#class1').val());
+	var classroom = $.trim($('#classroom').val());
+	var weekkk = $.trim($('#weekkk').val());
+	var course = $.trim($('#course').val());
+	var courseend = $.trim($('#courseend').val());
+	if(sub == '0'){
+		alert('请选择课程名称');
+		return false;
+	}
+	if(class1 == '0'){
+		alert('请选择班级');
+		return false;
+	}
+	if(classroom == ''){
+		alert('请填写教室');
+		return false;
+	}
+
+
+	if(weekkk == '0'){
+		alert('请选择星期');
+		return false;
+	}
+	if(course == '0'){
+		alert('请选择开始时间');
+		return false;
+	}
+	if(courseend == '0'){
+		alert('请选择结束时间');
+		return false;
+	}
+    if(courseend < course){
+        alert('请仔细核对课程开始结束时间');
+        return false;
+    }
+
+
+
+}
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

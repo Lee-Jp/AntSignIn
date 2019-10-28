@@ -1,0 +1,735 @@
+---------------------------------------------------------------
+[ 2019-04-29T16:37:01+08:00 ] 0.0.0.0 POST localhost/signIn/public/admin/index/clearruntime.html
+[运行时间：0.029364s] [吞吐率：34.06req/s] [内存消耗：1,296.74kb] [文件加载：41]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'clearruntime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/index/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '6',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'user' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Index->clearRuntime[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-29T16:37:07+08:00 ] 0.0.0.0 GET localhost/signIn/public/admin/index/index.html
+[运行时间：0.107920s] [吞吐率：9.27req/s] [内存消耗：1,493.89kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/login/log.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-29T16:37:07+08:00 ] 0.0.0.0 GET localhost/signIn/public/admin/index/welcome.html
+[运行时间：0.087001s] [吞吐率：11.49req/s] [内存消耗：1,423.13kb] [文件加载：43]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\index\welcome.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-29T16:37:10+08:00 ] 0.0.0.0 GET localhost/signIn/public/admin/coursetable/coursetablelist.html
+[运行时间：0.069844s] [吞吐率：14.32req/s] [内存消耗：2,255.49kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coursetable',
+    2 => 'coursetablelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Coursetable->coursetablelist[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Coursetable.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\coursetable\coursetablelist.html [ array (
+  0 => 'data',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002727s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_coursetable` [ RunTime:0.014437s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_coursetable` `c` INNER JOIN `tp_classes` `cla` ON `c`.`cla_id`=`cla`.`cid` INNER JOIN `tp_subject` `s` ON `c`.`sub_id`=`s`.`subid` WHERE  `tea_id` = 29 LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT `c`.`couid`,`c`.`classroom`,`c`.`week`,`c`.`starttime`,`c`.`endtime`,`cla`.`cname`,`s`.`subname` FROM `tp_coursetable` `c` INNER JOIN `tp_classes` `cla` ON `c`.`cla_id`=`cla`.`cid` INNER JOIN `tp_subject` `s` ON `c`.`sub_id`=`s`.`subid` WHERE  `tea_id` = 29 ORDER BY `couid` ASC LIMIT 0,15 [ RunTime:0.000778s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:37:11+08:00 ] 0.0.0.0 GET localhost/signIn/public/admin/coursetable/coursetablelist.html
+[运行时间：0.060062s] [吞吐率：16.65req/s] [内存消耗：2,126.10kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coursetable',
+    2 => 'coursetablelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Coursetable->coursetablelist[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Coursetable.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\coursetable\coursetablelist.html [ array (
+  0 => 'data',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012341s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_coursetable` [ RunTime:0.011648s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_coursetable` `c` INNER JOIN `tp_classes` `cla` ON `c`.`cla_id`=`cla`.`cid` INNER JOIN `tp_subject` `s` ON `c`.`sub_id`=`s`.`subid` WHERE  `tea_id` = 29 LIMIT 1 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `c`.`couid`,`c`.`classroom`,`c`.`week`,`c`.`starttime`,`c`.`endtime`,`cla`.`cname`,`s`.`subname` FROM `tp_coursetable` `c` INNER JOIN `tp_classes` `cla` ON `c`.`cla_id`=`cla`.`cid` INNER JOIN `tp_subject` `s` ON `c`.`sub_id`=`s`.`subid` WHERE  `tea_id` = 29 ORDER BY `couid` ASC LIMIT 0,15 [ RunTime:0.001075s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:37:11+08:00 ] 0.0.0.0 GET localhost/signIn/public/admin/statistics/statisticstealist.html
+[运行时间：0.100019s] [吞吐率：10.00req/s] [内存消耗：2,553.16kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'statistics',
+    2 => 'statisticstealist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Statistics->statisticstealist[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Statistics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\statistics\statisticstealist.html [ array (
+  0 => 'classes',
+  1 => 'subject',
+  2 => 'data',
+  3 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011741s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_classes` [ RunTime:0.012696s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_classes` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_subject` [ RunTime:0.013908s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_subject` [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_statistics` [ RunTime:0.011401s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statistics` WHERE  `tea_id` = 29 LIMIT 1 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_statistics` WHERE  `tea_id` = 29 LIMIT 0,100 [ RunTime:0.001294s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:37:14+08:00 ] 0.0.0.0 GET localhost/signIn/public/admin/statistics/statisticstealist.html
+[运行时间：0.084958s] [吞吐率：11.77req/s] [内存消耗：2,347.22kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'statistics',
+    2 => 'statisticstealist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Statistics->statisticstealist[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Statistics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\statistics\statisticstealist.html [ array (
+  0 => 'classes',
+  1 => 'subject',
+  2 => 'data',
+  3 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013978s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_classes` [ RunTime:0.010614s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_classes` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_subject` [ RunTime:0.010635s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_subject` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_statistics` [ RunTime:0.012173s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statistics` WHERE  `tea_id` = 29 LIMIT 1 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_statistics` WHERE  `tea_id` = 29 LIMIT 0,100 [ RunTime:0.000989s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:37:14+08:00 ] 0.0.0.0 GET localhost/signIn/public/admin/statistics/statisticstealist.html
+[运行时间：0.091141s] [吞吐率：10.97req/s] [内存消耗：2,347.22kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'statistics',
+    2 => 'statisticstealist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Statistics->statisticstealist[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Statistics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\statistics\statisticstealist.html [ array (
+  0 => 'classes',
+  1 => 'subject',
+  2 => 'data',
+  3 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014200s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_classes` [ RunTime:0.012519s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_classes` [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_subject` [ RunTime:0.011313s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_subject` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_statistics` [ RunTime:0.010848s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statistics` WHERE  `tea_id` = 29 LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_statistics` WHERE  `tea_id` = 29 LIMIT 0,100 [ RunTime:0.001343s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:37:22+08:00 ] 0.0.0.0 GET localhost/signIn/public/admin/statistics/statisticstealist.html?page=2
+[运行时间：0.102584s] [吞吐率：9.75req/s] [内存消耗：2,352.16kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'statistics',
+    2 => 'statisticstealist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/statistics/statisticstealist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Statistics->statisticstealist[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Statistics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\statistics\statisticstealist.html [ array (
+  0 => 'classes',
+  1 => 'subject',
+  2 => 'data',
+  3 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013444s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_classes` [ RunTime:0.013347s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_classes` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_subject` [ RunTime:0.014070s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_subject` [ RunTime:0.002360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_statistics` [ RunTime:0.014053s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statistics` WHERE  `tea_id` = 29 LIMIT 1 [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_statistics` WHERE  `tea_id` = 29 LIMIT 100,100 [ RunTime:0.001057s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:38:14+08:00 ] 0.0.0.0 POST localhost/signIn/public/admin/statistics/statisticstealist
+[运行时间：0.095697s] [吞吐率：10.45req/s] [内存消耗：2,189.73kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'statistics',
+    2 => 'statisticstealist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/statistics/statisticstealist.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '159',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'creattimestart' => '2019-04-29',
+  'creattimeend' => '2019-04-29',
+  'cname' => '16软件工程特色班',
+  'subname' => 'html5与css3',
+  'shaixuan' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Statistics->statisticstealist[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Statistics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\statistics\statisticstealist.html [ array (
+  0 => 'classes',
+  1 => 'subject',
+  2 => 'data',
+  3 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012414s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_classes` [ RunTime:0.012945s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_classes` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_subject` [ RunTime:0.010305s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_subject` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_statistics` [ RunTime:0.010419s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statistics` WHERE  `cname` = '16软件工程特色班'  AND `creattime` BETWEEN '2019-04-29' AND '2019-04-29'  AND `subname` = 'html5与css3'  AND `tea_id` = 29 LIMIT 1 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_statistics` WHERE  `cname` = '16软件工程特色班'  AND `creattime` BETWEEN '2019-04-29' AND '2019-04-29'  AND `subname` = 'html5与css3'  AND `tea_id` = 29 LIMIT 0,100 [ RunTime:0.001681s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:38:20+08:00 ] 0.0.0.0 POST localhost/signIn/public/admin/statistics/statisticstealist
+[运行时间：0.101649s] [吞吐率：9.84req/s] [内存消耗：2,348.01kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'statistics',
+    2 => 'statisticstealist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/statistics/statisticstealist',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '58',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'creattimestart' => '',
+  'creattimeend' => '',
+  'cname' => '0',
+  'subname' => '0',
+  'shaixuan' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Statistics->statisticstealist[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Statistics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\statistics\statisticstealist.html [ array (
+  0 => 'classes',
+  1 => 'subject',
+  2 => 'data',
+  3 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010944s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_classes` [ RunTime:0.010966s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_classes` [ RunTime:0.001894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_subject` [ RunTime:0.012515s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_subject` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_statistics` [ RunTime:0.009812s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statistics` WHERE  `tea_id` = 29 LIMIT 1 [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_statistics` WHERE  `tea_id` = 29 LIMIT 0,100 [ RunTime:0.001379s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:38:38+08:00 ] 0.0.0.0 POST localhost/signIn/public/admin/statistics/statisticstealist
+[运行时间：0.090436s] [吞吐率：11.06req/s] [内存消耗：2,189.73kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'statistics',
+    2 => 'statisticstealist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/statistics/statisticstealist',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '159',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'creattimestart' => '2019-04-29',
+  'creattimeend' => '2019-04-29',
+  'cname' => '16软件工程特色班',
+  'subname' => 'html5与css3',
+  'shaixuan' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Statistics->statisticstealist[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Statistics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\statistics\statisticstealist.html [ array (
+  0 => 'classes',
+  1 => 'subject',
+  2 => 'data',
+  3 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012816s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_classes` [ RunTime:0.013109s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_classes` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_subject` [ RunTime:0.010072s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_subject` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_statistics` [ RunTime:0.012177s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statistics` WHERE  `cname` = '16软件工程特色班'  AND `creattime` BETWEEN '2019-04-29' AND '2019-04-29'  AND `subname` = 'html5与css3'  AND `tea_id` = 29 LIMIT 1 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_statistics` WHERE  `cname` = '16软件工程特色班'  AND `creattime` BETWEEN '2019-04-29' AND '2019-04-29'  AND `subname` = 'html5与css3'  AND `tea_id` = 29 LIMIT 0,100 [ RunTime:0.001014s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:38:42+08:00 ] 0.0.0.0 GET localhost/signIn/public/admin/statistics/excelouttea.html
+[运行时间：0.426856s] [吞吐率：2.34req/s] [内存消耗：5,688.59kb] [文件加载：105]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'statistics',
+    2 => 'excelouttea',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/statistics/statisticstealist',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Statistics->excelouttea[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Statistics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003290s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_statistics` [ RunTime:0.010944s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_statistics` WHERE  `tea_id` = 29 [ RunTime:0.001366s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:39:03+08:00 ] 0.0.0.0 GET localhost/signIn/public/admin/statistics/statisticsteaecharts.html
+[运行时间：0.033147s] [吞吐率：30.17req/s] [内存消耗：1,478.78kb] [文件加载：43]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'statistics',
+    2 => 'statisticsteaecharts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Statistics->statisticsteaecharts[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Statistics.php ]
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\signIn\public/../application/admin\view\statistics\statisticsteaecharts.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-29T16:39:03+08:00 ] 0.0.0.0 POST localhost/signin/public/admin/coursetable/ajaxGetCourse
+[运行时间：0.072316s] [吞吐率：13.83req/s] [内存消耗：1,929.95kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coursetable',
+    2 => 'ajaxGetCourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/statistics/statisticsteaecharts.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Coursetable->ajaxGetCourse[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Coursetable.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019735s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_coursetable` [ RunTime:0.012255s ]
+[ sql ] [ SQL ] SELECT `c`.`couid`,`c`.`classroom`,`c`.`week`,`c`.`starttime`,`c`.`endtime`,`cla`.`cname`,`s`.`subname`,`cla`.`cid`,`c`.`tea_id` FROM `tp_coursetable` `c` INNER JOIN `tp_classes` `cla` ON `c`.`cla_id`=`cla`.`cid` INNER JOIN `tp_subject` `s` ON `c`.`sub_id`=`s`.`subid` WHERE  `tea_id` = 29 ORDER BY `starttime` ASC [ RunTime:0.001149s ]
+---------------------------------------------------------------
+[ 2019-04-29T16:39:19+08:00 ] 0.0.0.0 POST localhost/signin/public/admin/statistics/teacherGetStatistics
+[运行时间：0.053175s] [吞吐率：18.81req/s] [内存消耗：1,977.69kb] [文件加载：49]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\signIn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'statistics',
+    2 => 'teacherGetStatistics',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=169241714df64d-037d478119b316-1333062-144000-169241714e07fc; pgv_pvi=1711332352; CNZZDATA1258442427=1146302667-1551088654-%7C1554336695; Phpstorm-cd979afe=78eacbe9-2af1-4dbb-bf3b-75e888ad763f; PHPSESSID=juj41g9as0ip7sdft8sg35g183',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/signIn/public/admin/statistics/statisticsteaecharts.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '148',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'creattimestart' => '2019-04-29',
+  'creattimeend' => '2019-04-29',
+  'subname' => 'html5与css3',
+  'cname' => '16软件工程特色班',
+)
+[ info ] [ RUN ] app\admin\controller\Statistics->teacherGetStatistics[ F:\phpStudy\PHPTutorial\WWW\signIn\application\admin\controller\Statistics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003175s ] mysql:host=127.0.0.1;port=3306;dbname=singIn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_statistics` [ RunTime:0.012547s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_statistics` WHERE  `tea_id` = 29  AND `cname` = '16软件工程特色班'  AND `creattime` BETWEEN '2019-04-29' AND '2019-04-29'  AND `subname` = 'html5与css3' [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT sname,scode,count(sname) as num,
+                            count(case when status=1 then 1 end) num1,
+                            count(case when status=2 then 1 end) num2,
+                            count(case when status=3 then 1 end) num3,
+                            count(case when status=4 then 1 end) num4 FROM `tp_statistics` WHERE  `tea_id` = 29  AND `cname` = '16软件工程特色班'  AND `creattime` BETWEEN '2019-04-29' AND '2019-04-29'  AND `subname` = 'html5与css3'  AND `status` >= 1 GROUP BY `scode` [ RunTime:0.001108s ]

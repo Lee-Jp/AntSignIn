@@ -1,0 +1,15 @@
+<!--pages/signmap/index.wxml-->
+<map style='width:100%;height:{{mheight}}px;' enable-3D="true" enable-overlooking="true" enable-rotate="true" show-location="true" scale="17" longitude="{{lng}}" latitude="{{lat}}" circles="{{yuan}}" markers="{{marker}}" bindupdated="upmap">
+  <!-- <cover-view>{{lat}}--{{lng}}-{{range}}</cover-view> -->
+  <cover-view class="control">
+    <cover-view  bindtap='location' class='location'><cover-image src='../img/myp.png'></cover-image></cover-view>
+    <cover-view  bindtap='scanCode' class='location'><cover-image src='../img/zw.png'></cover-image></cover-view>
+    <cover-view  bindtap='location' class='location'><cover-image src='../img/member.png'></cover-image></cover-view>
+  </cover-view>
+
+<!-- <cover-view style='width:100%;height:200rpx;background:red;position:fixed;bottom:0;left:0;'>
+<cover-view>{{dd.latitude}}--{{dd.longitude}}</cover-view>
+<cover-view>--------------------</cover-view>
+<cover-view>{{mi}}=={{title}}=={{dd.accuracy}}</cover-view>
+</cover-view> -->
+</map>

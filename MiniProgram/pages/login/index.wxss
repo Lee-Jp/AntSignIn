@@ -1,0 +1,60 @@
+/* pages/login/index.wxss */
+.iconfont{
+  color:#888;
+  font-size: 48rpx;
+} 
+.container{
+  width: 100%;
+  position: fixed;top:28%;left:0;
+}
+.title{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin:0 0 80rpx 0;
+}
+.title text{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.title text:first-child{
+  font-size: 48rpx;
+}
+.title text:last-child{
+  font-size: 24rpx;
+}
+.login{
+  display: block;
+  width: 95%;
+  margin:0 auto;
+}
+.login view{
+  width: 95%;
+  margin:15rpx auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom:1rpx solid #ddd;
+}
+.login view input{
+  width: 95%;
+  padding:0 15rpx;
+  margin:15rpx;
+  font-size: 28rpx;
+}
+.login button{
+  width: 95%;
+  margin:60rpx auto 0;
+  color:#fff;
+  background: #0282f5;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<!--pages/login/index.wxml-->
+<image src='../img/loginbg.jpg' style="display:block;width:{{width}}px;height:{{height}}px;"></image>
+<view class='container'>
+  <view class='title'>
+    <text>蚂蚁考勤系统</text>
+    <text>Ant attendance system</text>
+  </view>
+  <form class='login' bindsubmit='login'>
+    <picker mode="selector" range="{{role}}" range-key='' value='roleIndex' bindchange="role">
+      <view>
+        <icon class='icon iconfont cd-yonghu'></icon>
+        <input type='text' value='{{role[roleIndex]}}' placeholder='请选择角色' disabled='true'></input>
+         <input type='text' name="role" value='{{roleIndex}}' style='display:none;'></input>
+      </view>
+    </picker>
+    <view>
+      <icon class='icon iconfont cd-yonghu'></icon>
+      <input type='text' name="userName" placeholder='请输入学号'></input>
+    </view>
+    <view>
+      <icon class="icon iconfont cd-mima"></icon>
+      <input type='text' password="true" name="userPwd" placeholder='请输入密码'></input>
+    </view>
+    <button form-type='submit'>登录</button>
+  </form>
+</view>
